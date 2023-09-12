@@ -10,4 +10,5 @@ integer and use that to get that element from your list and store it in the titl
 DIFFERENT EMOJI SCREENS:                                                                                           
 <img width="333" alt="Screenshot 2023-09-12 at 08 56 48" src="https://github.com/cdolu/csp/assets/112435811/b8fcd8d0-ee51-40e7-b340-889f34d5dd34">
 <img width="380" alt="Screenshot 2023-09-12 at 08 57 39" src="https://github.com/cdolu/csp/assets/112435811/1f4cb0bc-0ac2-4c6c-b28e-f65321908ef3">
+<img width="341" alt="Screenshot 2023-09-12 at 08 59 08" src="https://github.com/cdolu/csp/assets/112435811/220c45c1-53d4-463b-8eda-c3bb2bcc995d">
 
