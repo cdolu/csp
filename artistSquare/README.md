@@ -8,7 +8,7 @@ Make a function with conditionals for all of the colors and will return a rounde
 function using the key from the button that was tapped.
 
 
-BEFORE START SCREEN:                                                                    CASE ORANGE BUTTON PRESSED:
+BEFORE START SCREEN:                             -- --                                       CASE ORANGE BUTTON PRESSED:
 
 
 <img width="340" alt="Screenshot 2023-09-12 at 08 10 34" src="https://github.com/cdolu/csp/assets/112435811/1bb5527e-6ee7-416f-8fda-574936bd0170"><img width="340" alt="Screenshot 2023-09-12 at 08 10 56" src="https://github.com/cdolu/csp/assets/112435811/cccb36c9-c931-4212-bb56-7f65e40c1580">
