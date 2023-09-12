@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDD7F5242AA5D2550084ACB0 /* yeniAdamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD7F5232AA5D2550084ACB0 /* yeniAdamApp.swift */; };
+		DDD7F5262AA5D2550084ACB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD7F5252AA5D2550084ACB0 /* ContentView.swift */; };
+		DDD7F5282AA5D2560084ACB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD7F5272AA5D2560084ACB0 /* Assets.xcassets */; };
+		DDD7F52C2AA5D2560084ACB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD7F52B2AA5D2560084ACB0 /* Preview Assets.xcassets */; };
+		DDD7F5362AA5D2560084ACB0 /* yeniAdamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD7F5352AA5D2560084ACB0 /* yeniAdamTests.swift */; };
+		DDD7F5402AA5D2560084ACB0 /* yeniAdamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD7F53F2AA5D2560084ACB0 /* yeniAdamUITests.swift */; };
+		DDD7F5422AA5D2560084ACB0 /* yeniAdamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD7F5412AA5D2560084ACB0 /* yeniAdamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDD7F5322AA5D2560084ACB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDD7F5182AA5D2550084ACB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD7F51F2AA5D2550084ACB0;
+			remoteInfo = yeniAdam;
+		};
+		DDD7F53C2AA5D2560084ACB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDD7F5182AA5D2550084ACB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD7F51F2AA5D2550084ACB0;
+			remoteInfo = yeniAdam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDD7F5202AA5D2550084ACB0 /* yeniAdam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yeniAdam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD7F5232AA5D2550084ACB0 /* yeniAdamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeniAdamApp.swift; sourceTree = "<group>"; };
+		DDD7F5252AA5D2550084ACB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDD7F5272AA5D2560084ACB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDD7F5292AA5D2560084ACB0 /* yeniAdam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = yeniAdam.entitlements; sourceTree = "<group>"; };
+		DDD7F52B2AA5D2560084ACB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDD7F5312AA5D2560084ACB0 /* yeniAdamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yeniAdamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD7F5352AA5D2560084ACB0 /* yeniAdamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeniAdamTests.swift; sourceTree = "<group>"; };
+		DDD7F53B2AA5D2560084ACB0 /* yeniAdamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yeniAdamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD7F53F2AA5D2560084ACB0 /* yeniAdamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeniAdamUITests.swift; sourceTree = "<group>"; };
+		DDD7F5412AA5D2560084ACB0 /* yeniAdamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeniAdamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD7F51D2AA5D2550084ACB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD7F52E2AA5D2560084ACB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD7F5382AA5D2560084ACB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDD7F5172AA5D2550084ACB0 = {
+			isa = PBXGroup;
+			children = (
+				DDD7F5222AA5D2550084ACB0 /* yeniAdam */,
+				DDD7F5342AA5D2560084ACB0 /* yeniAdamTests */,
+				DDD7F53E2AA5D2560084ACB0 /* yeniAdamUITests */,
+				DDD7F5212AA5D2550084ACB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD7F5212AA5D2550084ACB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD7F5202AA5D2550084ACB0 /* yeniAdam.app */,
+				DDD7F5312AA5D2560084ACB0 /* yeniAdamTests.xctest */,
+				DDD7F53B2AA5D2560084ACB0 /* yeniAdamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD7F5222AA5D2550084ACB0 /* yeniAdam */ = {
+			isa = PBXGroup;
+			children = (
+				DDD7F5232AA5D2550084ACB0 /* yeniAdamApp.swift */,
+				DDD7F5252AA5D2550084ACB0 /* ContentView.swift */,
+				DDD7F5272AA5D2560084ACB0 /* Assets.xcassets */,
+				DDD7F5292AA5D2560084ACB0 /* yeniAdam.entitlements */,
+				DDD7F52A2AA5D2560084ACB0 /* Preview Content */,
+			);
+			path = yeniAdam;
+			sourceTree = "<group>";
+		};
+		DDD7F52A2AA5D2560084ACB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDD7F52B2AA5D2560084ACB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDD7F5342AA5D2560084ACB0 /* yeniAdamTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDD7F5352AA5D2560084ACB0 /* yeniAdamTests.swift */,
+			);
+			path = yeniAdamTests;
+			sourceTree = "<group>";
+		};
+		DDD7F53E2AA5D2560084ACB0 /* yeniAdamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDD7F53F2AA5D2560084ACB0 /* yeniAdamUITests.swift */,
+				DDD7F5412AA5D2560084ACB0 /* yeniAdamUITestsLaunchTests.swift */,
+			);
+			path = yeniAdamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD7F51F2AA5D2550084ACB0 /* yeniAdam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD7F5452AA5D2560084ACB0 /* Build configuration list for PBXNativeTarget "yeniAdam" */;
+			buildPhases = (
+				DDD7F51C2AA5D2550084ACB0 /* Sources */,
+				DDD7F51D2AA5D2550084ACB0 /* Frameworks */,
+				DDD7F51E2AA5D2550084ACB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yeniAdam;
+			productName = yeniAdam;
+			productReference = DDD7F5202AA5D2550084ACB0 /* yeniAdam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDD7F5302AA5D2560084ACB0 /* yeniAdamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD7F5482AA5D2560084ACB0 /* Build configuration list for PBXNativeTarget "yeniAdamTests" */;
+			buildPhases = (
+				DDD7F52D2AA5D2560084ACB0 /* Sources */,
+				DDD7F52E2AA5D2560084ACB0 /* Frameworks */,
+				DDD7F52F2AA5D2560084ACB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDD7F5332AA5D2560084ACB0 /* PBXTargetDependency */,
+			);
+			name = yeniAdamTests;
+			productName = yeniAdamTests;
+			productReference = DDD7F5312AA5D2560084ACB0 /* yeniAdamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDD7F53A2AA5D2560084ACB0 /* yeniAdamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD7F54B2AA5D2560084ACB0 /* Build configuration list for PBXNativeTarget "yeniAdamUITests" */;
+			buildPhases = (
+				DDD7F5372AA5D2560084ACB0 /* Sources */,
+				DDD7F5382AA5D2560084ACB0 /* Frameworks */,
+				DDD7F5392AA5D2560084ACB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDD7F53D2AA5D2560084ACB0 /* PBXTargetDependency */,
+			);
+			name = yeniAdamUITests;
+			productName = yeniAdamUITests;
+			productReference = DDD7F53B2AA5D2560084ACB0 /* yeniAdamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD7F5182AA5D2550084ACB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DDD7F51F2AA5D2550084ACB0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DDD7F5302AA5D2560084ACB0 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DDD7F51F2AA5D2550084ACB0;
+					};
+					DDD7F53A2AA5D2560084ACB0 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DDD7F51F2AA5D2550084ACB0;
+					};
+				};
+			};
+			buildConfigurationList = DDD7F51B2AA5D2550084ACB0 /* Build configuration list for PBXProject "yeniAdam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDD7F5172AA5D2550084ACB0;
+			productRefGroup = DDD7F5212AA5D2550084ACB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD7F51F2AA5D2550084ACB0 /* yeniAdam */,
+				DDD7F5302AA5D2560084ACB0 /* yeniAdamTests */,
+				DDD7F53A2AA5D2560084ACB0 /* yeniAdamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD7F51E2AA5D2550084ACB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD7F52C2AA5D2560084ACB0 /* Preview Assets.xcassets in Resources */,
+				DDD7F5282AA5D2560084ACB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD7F52F2AA5D2560084ACB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD7F5392AA5D2560084ACB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD7F51C2AA5D2550084ACB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD7F5262AA5D2550084ACB0 /* ContentView.swift in Sources */,
+				DDD7F5242AA5D2550084ACB0 /* yeniAdamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD7F52D2AA5D2560084ACB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD7F5362AA5D2560084ACB0 /* yeniAdamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD7F5372AA5D2560084ACB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD7F5422AA5D2560084ACB0 /* yeniAdamUITestsLaunchTests.swift in Sources */,
+				DDD7F5402AA5D2560084ACB0 /* yeniAdamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDD7F5332AA5D2560084ACB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDD7F51F2AA5D2550084ACB0 /* yeniAdam */;
+			targetProxy = DDD7F5322AA5D2560084ACB0 /* PBXContainerItemProxy */;
+		};
+		DDD7F53D2AA5D2560084ACB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDD7F51F2AA5D2550084ACB0 /* yeniAdam */;
+			targetProxy = DDD7F53C2AA5D2560084ACB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDD7F5432AA5D2560084ACB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDD7F5442AA5D2560084ACB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DDD7F5462AA5D2560084ACB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = yeniAdam/yeniAdam.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"yeniAdam/Preview Content\"";
+				DEVELOPMENT_TEAM = N4KQJ79KLJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.yeniAdam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDD7F5472AA5D2560084ACB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = yeniAdam/yeniAdam.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"yeniAdam/Preview Content\"";
+				DEVELOPMENT_TEAM = N4KQJ79KLJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.yeniAdam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDD7F5492AA5D2560084ACB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4KQJ79KLJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.yeniAdamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yeniAdam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yeniAdam";
+			};
+			name = Debug;
+		};
+		DDD7F54A2AA5D2560084ACB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4KQJ79KLJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.yeniAdamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yeniAdam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/yeniAdam";
+			};
+			name = Release;
+		};
+		DDD7F54C2AA5D2560084ACB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4KQJ79KLJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.yeniAdamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yeniAdam;
+			};
+			name = Debug;
+		};
+		DDD7F54D2AA5D2560084ACB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4KQJ79KLJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.yeniAdamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yeniAdam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD7F51B2AA5D2550084ACB0 /* Build configuration list for PBXProject "yeniAdam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD7F5432AA5D2560084ACB0 /* Debug */,
+				DDD7F5442AA5D2560084ACB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD7F5452AA5D2560084ACB0 /* Build configuration list for PBXNativeTarget "yeniAdam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD7F5462AA5D2560084ACB0 /* Debug */,
+				DDD7F5472AA5D2560084ACB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD7F5482AA5D2560084ACB0 /* Build configuration list for PBXNativeTarget "yeniAdamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD7F5492AA5D2560084ACB0 /* Debug */,
+				DDD7F54A2AA5D2560084ACB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD7F54B2AA5D2560084ACB0 /* Build configuration list for PBXNativeTarget "yeniAdamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD7F54C2AA5D2560084ACB0 /* Debug */,
+				DDD7F54D2AA5D2560084ACB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDD7F5182AA5D2550084ACB0 /* Project object */;
+}
